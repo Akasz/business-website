@@ -1,0 +1,320 @@
+.page
+{
+    background-color: rgb(241,241,241);
+    width: 1600px;
+    height: 1825px;
+    margin: none;
+    padding: none;
+}
+
+.header--flex
+{
+    display: flex;
+    height: 99px;
+    background-color: rgb(255,246,0);
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo
+{
+    display: flex;
+    width: 190px;
+    align-items: center;
+    margin-right: 256px;
+}
+
+.header__navigation
+{
+    display: flex;
+    justify-content: space-between;
+    width: 511px;
+}
+
+.header__slider
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230,230,230);
+    height: 501px;
+}
+
+.slider__layer1
+{
+    width: 230px;
+    height: 430px;
+    margin: 6px;
+}
+
+.slider__layer2
+{
+    width: 230px;
+    height: 430px;
+    margin: 6px;
+}
+
+.slider__layer3
+{
+    width: 230px;
+    height: 430px;
+    margin: 6px;
+}
+
+.slider__layer4
+{
+    width: 230px;
+    height: 430px;
+    margin: 6px;
+}
+
+.header__button
+{
+    width: 1600px;
+    height: 55px;
+    margin-top: 8px;
+}
+
+.header__button--flex
+{
+    width: 360px;
+    height: 35px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 7px;
+}
+
+.header__link
+{
+    border: 1px solid black;
+    padding: 5px
+}
+
+.header__link--a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.header__link--a:hover
+{
+    text-decoration: none;
+    color: grey;
+}
+
+.header__button--link
+{
+    color: yellow;
+    text-decoration: none;
+}
+
+.header__button--link:hover
+{
+    color: darkgray;
+    text-decoration: none;
+}
+
+.main__blurbs
+{
+    height: 400px;
+    background-color: rgb(107,107,107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__title
+{
+    width: 212px;
+    margin: 18px;
+}
+
+.main__title--header
+{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    color: yellow;
+}
+
+.main__title--paragraph
+{
+    text-align: justify;
+    margin: 0px;
+    color: white;
+}
+
+.main__content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__company, .main__testimonials, .main__blog
+{
+    width: 260px;
+    height: 410px;
+    margin: 34px;
+    padding: 10px;
+}
+
+.main__company--header, .main__testimonials--header, .main__blog--header
+{
+    font-size: 24px;
+    text-align: left;
+}
+
+.main__company--paragrap, .main__testimonials--paragraph, .main__blog--paragraph
+{
+    text-align: justify;
+}
+
+.main__blog--paragraph
+{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main__blog--date
+{
+    text-decoration: underline;
+    font-weight: normal;
+    font-style: oblique;
+    margin: 10px;
+}
+
+.footer__newsletter
+{
+    height: 50px;
+    background-color: rgb(31,31,31);
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__newsletter--signUp
+{
+    margin-left: 320px;
+    color: white;
+    font-weight: bold;
+}
+    
+.footer__twitter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 320px;
+}
+    
+.footer__twitter--paragraph
+{
+    color: white;
+    font-style: italic;
+}
+    
+.footer
+{
+    height: 400px;
+    background-color: rgb(60,60,60);
+}
+ 
+.footer__flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+    
+.footer__company
+{
+    width: 220px;
+    text-align: justify;
+}
+
+.footer__company--link
+{
+    text-decoration: none;
+    color: black;
+}
+   
+.footer__company--link:hover
+{
+    text-decoration: none;
+    color: grey;
+}
+
+.footer__social
+{
+    width: 220px;
+    text-align: justify;
+    margin-right: 80px;
+}
+
+.footer__location
+{
+    width: 220px;
+    text-align: justify;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.footer__textWidget
+{
+    width: 220px;
+    text-align: justify;
+}
+
+
+.footer__company--head, .footer__social--head1, .footer__location--head, .footer__textWidget--head
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+}
+
+.footer__social--head2
+{
+    font-size: 14px;
+    color: rgb(164,164,164);
+    font-weight: 200;
+    margin: 0px;
+}
+  
+.footer__social--flex
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer__social--twitter, .footer__social--facebook, .footer__social--linkedin, .footer__social--youtube
+{
+    margin-top: 5px;
+    margin-right: 14px;
+}
+    
+.footer__location--paragraph, .footer__textWidget--paragraph
+{
+    margin: 0px;
+}
+
+.footer__author
+{
+    margin-top: 40px;
+    text-align: center;
+}
+    
+    
+    
+
+
+
+
+
+
